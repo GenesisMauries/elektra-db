@@ -3,7 +3,7 @@ package com.elektradb.models;
 import jakarta.persistence.*;
 
 @Entity
-public class ProductoModel {
+public class Producto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
